@@ -1,0 +1,57 @@
+@import url("base.css");
+@import url("topbar.css");
+#wrapper {
+    height: 1200px !important;
+}
+.direct {
+    margin-left: 105px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+.arrow {
+    margin: 0 16px;
+}
+.signin-container {
+    width: 930px;
+    height: auto;
+    margin: 120px auto 20px;
+    background-color: #FAAE96;
+    color: var(--white-color);
+}
+.signin-row {
+    width: 750px;
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.signin-row > label {
+    font-size: 18px;
+    line-height: 40px;
+}
+.signin-row > input {
+    width: 450px;
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    border-radius: 8px;
+    padding: 8px 4px;
+    font-size: 16px;
+    color: var(--white-color);
+}
+.signin-row:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+.signup-btn, .forgot-btn, .signin-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-color);
+    padding: 5px 20px;
+    border: 2px solid var(--white-color);
+    border-radius: 8px;
+}
+.signin-btn {
+    border: 2px solid #FF5662 !important;
+}

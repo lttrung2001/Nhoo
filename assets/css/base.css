@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: no-virus;
+    src:url('../font/no_virus/NoVirus.ttf') format('truetype'),
+    url('../fonts/Captureit.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Captureit.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+   }
+:root {
+    --primary-color: rgb(255, 155, 120);
+    --white-color: #fff;
+    --border-color: #CCBBB2;
+    --bg-color: #FFEFEB;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Roboto;
+}
+#wrapper {
+    width: 1140px;
+    background-color: var(--bg-color);
+    margin: 0 auto;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+.ml-60 {
+    margin-left: 60px;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+.mr-60 {
+    margin-right: 60px;
+}
+.ml-90 {
+    margin-left: 90px;
+}
+.mr-90 {
+    margin-right: 90px;
+}
